@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+sdc_env/
+
+# Selenium / Chrome
+drivers/chrome-win64/
+drivers/chromedriver-win64/
+chromedriver.exe
+chrome.exe
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Large AI models
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.ckpt
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Build
+build/
+dist/
+*.egg-info/
